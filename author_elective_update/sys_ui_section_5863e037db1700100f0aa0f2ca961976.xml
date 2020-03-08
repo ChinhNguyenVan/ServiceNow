@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="5863e037db1700100f0aa0f2ca961976" sys_domain="global" table="x_468467_codeservi_endereco" version="3" view="UserFriendly">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-08 18:53:30</sys_created_on>
+            <sys_id>61c7e0fbdb1700100f0aa0f2ca96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_468467_codeservi_endereco" sys_domain="global" view="c953a037db1700100f0aa0f2ca96197d">5863e037db1700100f0aa0f2ca961976</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-08 18:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cidade</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-08 18:53:30</sys_created_on>
+            <sys_id>e1c7e0fbdb1700100f0aa0f2ca96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_468467_codeservi_endereco" sys_domain="global" view="c953a037db1700100f0aa0f2ca96197d">5863e037db1700100f0aa0f2ca961976</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-08 18:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>uf</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-08 18:53:30</sys_created_on>
+            <sys_id>65c7e0fbdb1700100f0aa0f2ca96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_468467_codeservi_endereco" sys_domain="global" view="c953a037db1700100f0aa0f2ca96197d">5863e037db1700100f0aa0f2ca961976</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-08 18:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bairro</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-08 18:53:30</sys_created_on>
+            <sys_id>e5c7e0fbdb1700100f0aa0f2ca96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_468467_codeservi_endereco" sys_domain="global" view="c953a037db1700100f0aa0f2ca96197d">5863e037db1700100f0aa0f2ca961976</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-08 18:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rua</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-08 18:53:30</sys_created_on>
+            <sys_id>69c7e0fbdb1700100f0aa0f2ca96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_468467_codeservi_endereco" sys_domain="global" view="c953a037db1700100f0aa0f2ca96197d">5863e037db1700100f0aa0f2ca961976</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-08 18:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_468467_codeservi_endereco</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-08 18:34:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5863e037db1700100f0aa0f2ca961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_468467_codeservi_endereco</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CodeServiceNow" source="x_468467_codeservi">3d0a10f3dbd300100f0aa0f2ca96191c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CodeServiceNow">3d0a10f3dbd300100f0aa0f2ca96191c</sys_scope>
+            <sys_update_name>sys_ui_section_5863e037db1700100f0aa0f2ca961976</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-08 18:34:05</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="UserFriendly" name="UserFriendly">c953a037db1700100f0aa0f2ca96197d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CodeServiceNow">3d0a10f3dbd300100f0aa0f2ca96191c</application>
+        <file_path/>
+        <instance_id>d0699658db0863447e55d5b0cf9619cc</instance_id>
+        <instance_name>dev70929</instance_name>
+        <name>sys_ui_section_5863e037db1700100f0aa0f2ca961976</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="5863e037db1700100f0aa0f2ca961976" sys_domain="global" table="x_468467_codeservi_endereco" version="3" view="UserFriendly"><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-08 18:53:30</sys_created_on><sys_id>61c7e0fbdb1700100f0aa0f2ca96196c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_468467_codeservi_endereco" sys_domain="global" view="c953a037db1700100f0aa0f2ca96197d">5863e037db1700100f0aa0f2ca961976</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-08 18:53:30</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cidade</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-08 18:53:30</sys_created_on><sys_id>e1c7e0fbdb1700100f0aa0f2ca96196c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_468467_codeservi_endereco" sys_domain="global" view="c953a037db1700100f0aa0f2ca96197d">5863e037db1700100f0aa0f2ca961976</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-08 18:53:30</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>uf</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-08 18:53:30</sys_created_on><sys_id>65c7e0fbdb1700100f0aa0f2ca96196c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_468467_codeservi_endereco" sys_domain="global" view="c953a037db1700100f0aa0f2ca96197d">5863e037db1700100f0aa0f2ca961976</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-08 18:53:30</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>bairro</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-08 18:53:30</sys_created_on><sys_id>e5c7e0fbdb1700100f0aa0f2ca96196c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_468467_codeservi_endereco" sys_domain="global" view="c953a037db1700100f0aa0f2ca96197d">5863e037db1700100f0aa0f2ca961976</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-08 18:53:30</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>rua</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-08 18:53:30</sys_created_on><sys_id>69c7e0fbdb1700100f0aa0f2ca96196c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_468467_codeservi_endereco" sys_domain="global" view="c953a037db1700100f0aa0f2ca96197d">5863e037db1700100f0aa0f2ca961976</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-08 18:53:30</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_468467_codeservi_endereco</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-08 18:34:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5863e037db1700100f0aa0f2ca961976</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_468467_codeservi_endereco</sys_name><sys_overrides/><sys_package display_value="CodeServiceNow" source="x_468467_codeservi">3d0a10f3dbd300100f0aa0f2ca96191c</sys_package><sys_policy/><sys_scope display_value="CodeServiceNow">3d0a10f3dbd300100f0aa0f2ca96191c</sys_scope><sys_update_name>sys_ui_section_5863e037db1700100f0aa0f2ca961976</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-08 18:34:05</sys_updated_on><sys_user/><title>false</title><view display_value="UserFriendly" name="UserFriendly">c953a037db1700100f0aa0f2ca96197d</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1311275019</payload_hash>
+        <record_name>endereco</record_name>
+        <reverted_from/>
+        <source>573460b3db1700100f0aa0f2ca9619db</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-08 18:53:30</sys_created_on>
+        <sys_id>a1c7e0fbdb1700100f0aa0f2ca96196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170bb7ebf920000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-08 18:53:30</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>2dc7e0fb7517001040e27e194a511e6d</update_guid>
+        <update_guid_history>2dc7e0fb7517001040e27e194a511e6d:1311275019,89572cbb781700107e1b7a282110bf29:-741639498,2634e0778617001009dd0be667ec240c:0,68342077911700107d88b0c76b5f73b9:1217729721,4aa32837b0170010bc8d1e3408c1775c:1984724752,9863e0370e17001006472198b840ba7c:469173084</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-08 18:53:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>6a8b71d6ff32424ebb9efdf5f7f30191</sys_id>
+        <sys_metadata>5863e037db1700100f0aa0f2ca961976</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_468467_codeservi_endereco</sys_name>
+        <sys_package display_value="CodeServiceNow" source="x_468467_codeservi">3d0a10f3dbd300100f0aa0f2ca96191c</sys_package>
+        <sys_parent display_value="endereco">346d18bfdbd300100f0aa0f2ca9619d3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CodeServiceNow">3d0a10f3dbd300100f0aa0f2ca96191c</sys_scope>
+        <sys_scope_delete display_value="">5ef7cc34c0244a28b132966be7a30711</sys_scope_delete>
+        <sys_update_name>sys_ui_section_5863e037db1700100f0aa0f2ca961976</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_5863e037db1700100f0aa0f2ca961976">a1c7e0fbdb1700100f0aa0f2ca96196e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-08 18:53:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
