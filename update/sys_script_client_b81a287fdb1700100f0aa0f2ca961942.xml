@@ -4,23 +4,38 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description>Load Ip and Cep Correios</description>
-        <field>bairro</field>
+        <field>ip</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages>Load Ip and Cep Correios</messages>
         <name>IPDataClientScript</name>
         <order/>
-        <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
-  g_form.setValue('cep', '123');
-}]]></script>
+        <script><![CDATA[function onChange() {
+
+    var ga = new GlideAjax("EnderecoAjax");
+    ga.addParam("sysparm_name", "loadDataFromIP");
+
+    var exp = /^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/;
+
+    if (exp.test(g_form.getValue('ip'))) {
+		ga.addParam("ip", g_form.getValue('ip'));
+        ga.getXML(function(data) {
+            var result = data.responseXML.getElementsByTagName("result");
+            var ip = result[0].getAttribute("ip");
+            var cep = result[0].getAttribute("cep");
+            g_form.setValue('cep', cep);
+        });
+    }
+
+}
+]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-08 19:12:40</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b81a287fdb1700100f0aa0f2ca961942</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>IPDataClientScript</sys_name>
         <sys_overrides/>
         <sys_package display_value="CodeServiceNow" source="x_468467_codeservi">3d0a10f3dbd300100f0aa0f2ca96191c</sys_package>
@@ -28,9 +43,9 @@
         <sys_scope display_value="CodeServiceNow">3d0a10f3dbd300100f0aa0f2ca96191c</sys_scope>
         <sys_update_name>sys_script_client_b81a287fdb1700100f0aa0f2ca961942</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-08 19:16:34</sys_updated_on>
+        <sys_updated_on>2020-03-08 21:03:43</sys_updated_on>
         <table>x_468467_codeservi_endereco</table>
-        <type>onLoad</type>
+        <type>onChange</type>
         <ui_type>10</ui_type>
         <view/>
     </sys_script_client>

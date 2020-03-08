@@ -33,7 +33,7 @@
         <name>x_468467_codeservi_endereco</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -48,7 +48,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-08 18:08:08</sys_created_on>
-        <sys_id>4634a077db1700100f0aa0f2ca961929</sys_id>
+        <sys_id>035e2873db5700100f0aa0f2ca961984</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>IP</sys_name>
         <sys_package display_value="CodeServiceNow" source="x_468467_codeservi">3d0a10f3dbd300100f0aa0f2ca96191c</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="CodeServiceNow">3d0a10f3dbd300100f0aa0f2ca96191c</sys_scope>
         <sys_update_name>sys_dictionary_x_468467_codeservi_endereco_ip</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-08 19:00:07</sys_updated_on>
+        <sys_updated_on>2020-03-08 21:01:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
