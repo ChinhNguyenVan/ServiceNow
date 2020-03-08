@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="cidade" label="Cidade" language="en" table="x_468467_codeservi_endereco">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>cidade</element>
+            <help/>
+            <hint/>
+            <label>Cidade</label>
+            <language>en</language>
+            <name>x_468467_codeservi_endereco</name>
+            <plural>Cidades</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-08 18:08:08</sys_created_on>
+            <sys_id>c16d58bfdbd300100f0aa0f2ca96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Cidade</sys_name>
+            <sys_package display_value="CodeServiceNow" source="x_468467_codeservi">3d0a10f3dbd300100f0aa0f2ca96191c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CodeServiceNow">3d0a10f3dbd300100f0aa0f2ca96191c</sys_scope>
+            <sys_update_name>sys_documentation_x_468467_codeservi_endereco_cidade_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-08 18:08:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

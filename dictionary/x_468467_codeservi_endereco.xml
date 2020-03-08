@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="endereco" max_length="40" name="x_468467_codeservi_endereco" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Bairro" max_length="255" name="bairro" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cep" max_length="40" name="cep" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cidade" max_length="155" name="cidade" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="IP" max_length="40" name="ip" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Rua" max_length="255" name="rua" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Uf" max_length="40" name="uf" type="string"/>
+    </element>
+</database>
