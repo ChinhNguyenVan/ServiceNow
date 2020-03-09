@@ -2,47 +2,50 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_468467_codeservi.EnderecoAjax</api_name>
+        <api_name>x_468467_codeservi.IPStackAjaxServerScript</api_name>
         <caller_access/>
         <client_callable>true</client_callable>
         <description/>
-        <name>EnderecoAjax</name>
-        <script><![CDATA[var EnderecoAjax = Class.create();
-EnderecoAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
-    type: 'EnderecoAjax',
+        <name>IPStackAjaxServerScript</name>
+        <script><![CDATA[var IPStackAjaxServerScript = Class.create();
+IPStackAjaxServerScript.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    type: 'IPStackAjaxServerScript',
     loadDataFromIP: function() {
         var result = this.newItem('result');     
 		var ipParam = this.getParameter('ip');		
         var ipStackKey = 'b7608d4de1d02289b73f91a028d7f3e5';
-
+		var endPoint = 'http://api.ipstack.com/';
+		
         var request = new sn_ws.RESTMessageV2();
-        request.setEndpoint('http://api.ipstack.com/'+ipParam+'?access_key=' + ipStackKey + '&format=1');
+        request.setEndpoint(endPoint+ipParam+'?access_key=' + ipStackKey + '&format=1');
         request.setHttpMethod('GET');
         request.setRequestHeader("Accept", "application/json");
         
 		var response = request.execute();
         var httpResponseStatus = response.getStatusCode();
-
-        if (httpResponseStatus == 200) {
-			var body = JSON.parse(response.getBody());
+		var body = httpResponseStatus == 200 ? JSON.parse(response.getBody()) : null;
+		result.setAttribute('error', null);
+		
+		if (body != null && body.ip != null && body.zip != null) {			
             result.setAttribute('ip', body.ip);
 			result.setAttribute('cep', body.zip);
-        }
-
-
+        } else {
+			result.setAttribute('error', 'Cep não encontrado para o ip: '+ ipParam );
+		}
+		
     }
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-08 19:32:23</sys_created_on>
         <sys_id>54803437db5700100f0aa0f2ca96199f</sys_id>
-        <sys_mod_count>40</sys_mod_count>
-        <sys_name>EnderecoAjax</sys_name>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_name>IPStackAjaxServerScript</sys_name>
         <sys_package display_value="CodeServiceNow" source="x_468467_codeservi">3d0a10f3dbd300100f0aa0f2ca96191c</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="CodeServiceNow">3d0a10f3dbd300100f0aa0f2ca96191c</sys_scope>
         <sys_update_name>sys_script_include_54803437db5700100f0aa0f2ca96199f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-08 21:24:11</sys_updated_on>
+        <sys_updated_on>2020-03-09 03:41:25</sys_updated_on>
     </sys_script_include>
 </record_update>
